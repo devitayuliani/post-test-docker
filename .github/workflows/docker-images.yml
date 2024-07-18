@@ -30,4 +30,4 @@ jobs:
         tags: ${{ secrets.DOCKER_USERNAME }}/postnext-js-ci-cd:development
         build-args:
           NEXT_PUBLIC_TMDB_API_KEY: ${{ secrets.NEXT_PUBLIC_TMDB_API_KEY }}
-          NEXT_PUBLIC_TMDB_BASE_URL: ${{ secrets.NEXT_PUBLIC_BASE_URL }}
+          NEXT_PUBLIC_TMDB_BASE_URL: ${{ secrets.NEXT_PUBLIC_TMDB_BASE_URL }}
